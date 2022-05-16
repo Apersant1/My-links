@@ -1,0 +1,25 @@
+.me {
+  @apply mt-40  text-center bg-zinc-900 relative;
+
+
+  .image-wrapper {
+    @apply flex justify-center;
+    > span {
+      margin-top: -3rem !important;
+    }
+
+    .image {
+      @apply mt-2 rounded-full;
+    }
+  }
+
+  .heading {
+    @apply text-4xl mt-5 mb-5 font-semibold text-white;
+
+
+  }
+  .develoProgram{
+    @apply flex justify-center items-center mb-5 text-base font-semibold text-white;
+
+  }
+}
